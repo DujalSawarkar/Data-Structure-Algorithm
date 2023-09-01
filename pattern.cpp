@@ -7,30 +7,30 @@ int main()
     
     int n;
     cin >> n;
-    // int i =1;
-    // while(i<=n){
-    //     int j = 1;
-    //     while(j<=n){
-    //         cout << j << " ";
-    //         j =j+1;
+    int i =1;
+    while(i<=n){
+        int j = 1;
+        while(j<=n){
+            cout << j << " ";
+            j =j+1;
 
-    //     }
-    //     cout <<endl;
-    //     i=i+1;
-    // }
+        }
+        cout <<endl;
+        i=i+1;
+    }
 
-    // int i = 1 ;
-    // while(i <= n){
-    //     int j =1;
-    //     while (j<=i)
-    //     {
-    //         cout<<i<<" ";
+    int i = 1 ;
+    while(i <= n){
+        int j =1;
+        while (j<=i)
+        {
+            cout<<i<<" ";
             
-    //         j++;
-    //     }
-    //     cout<<endl;
-    //     i++;
-    // }
+            j++;
+        }
+        cout<<endl;
+        i++;
+    }
 
     // output 
     // 1
